@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Application</title>
+    <link rel="stylesheet" href="./stles.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking Application</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <section class="search">
+            <h2>Search for Hotels</h2>
+            <form id="searchForm">
+                <input type="text" id="destination" placeholder="Destination">
+                <input type="date" id="checkin">
+                <input type="date" id="checkout">
+                <input type="number" id="guests" placeholder="Guests">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="hotelsList">
+            <!-- Hotels will be displayed here -->
+        </section>
+    </main>
+
+    <div class = "footer">
+        <p><Footer></Footer></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
