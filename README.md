@@ -6,7 +6,7 @@
 
 -------------------------------------------------------------
 - To get started, we first need to initialize npm in the package, and install express.
-```bash
+```bash 
 npm init
 npm install express
 ```
