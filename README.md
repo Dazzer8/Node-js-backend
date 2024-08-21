@@ -141,3 +141,11 @@ const app = express();
 const port = 8080;
 
 const userRoutes = require('./routes/userRoutes');
+// Use middleware globally (if needed)
+// app.use(isAuthenticated);
+
+app.use('/api', userRoutes);
+
+const server = app.listen(port, () => {
+    console.log(`Server is listening on port ${port}`);
+});
