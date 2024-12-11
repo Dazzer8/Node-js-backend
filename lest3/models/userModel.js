@@ -1,6 +1,3 @@
-//username 
-//passwoed
-//email
 const mongoose = require("mongoose");
 var validator = require("email-validator");
 
